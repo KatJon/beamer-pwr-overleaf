@@ -7,6 +7,8 @@
 \usepackage[polish]{babel}
 \usepackage{polski}
 
+\setbeamertemplate{section in toc}
+    {\inserttocsectionnumber.~\inserttocsection}
 
 \title{Prezentacja}
 \author{Autor}
@@ -15,6 +17,14 @@
 \begin{document}
 
 \maketitle
+
+\section*{Plan prezentacji}
+
+\begin{frame}{Plan prezentacji}
+    \tableofcontents
+\end{frame}
+
+\section{Sekcja 1}
 
 \begin{frame}{Zażółć gęślą jaźń}
     
